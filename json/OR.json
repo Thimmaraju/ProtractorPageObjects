@@ -1,0 +1,45 @@
+{
+
+  "testsiteurl":"http://www.way2automation.com/angularjs-protractor/banking/#/login",
+
+  "locators":{
+
+    "homepage":{
+
+      "buttontext":"Customer",
+      "ngclickbutton":"manager()"
+
+
+    },
+    "addcustomerdetailspage":{
+
+      "addcustomerbutton":"addCust()",
+      "fName":"fName",
+      "lName":"lName",
+      "pCode":"postCd",
+      "addcustomer":".btn.btn-default",
+      "openAccount":"addCust()",
+
+      "testdata":{
+
+
+        "fName":"Raman",
+        "lName":"Arora",
+        "pCode":"110095"
+
+
+      }
+
+
+    }
+
+
+
+  }
+
+
+
+
+
+
+}

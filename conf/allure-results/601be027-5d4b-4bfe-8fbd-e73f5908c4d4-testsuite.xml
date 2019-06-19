@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1457704629926" stop="1457704635199">
+	<name>Customer information Test</name>
+	<title>Customer information Test</title>
+	<test-cases>
+		<test-case start="1457704629926" stop="1457704635000" status="passed">
+			<name>Adding Customer Information</name>
+			<title>Adding Customer Information</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="bee74840-3cf4-4158-8595-5aa58f2746ed-attachment.png" type="image/png" size="22064"/>
+			</attachments>
+		</test-case>
+		<test-case start="1457704635000" stop="1457704635198" status="failed">
+			<name>Open Account</name>
+			<title>Open Account</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="91d43d42-d18b-4684-b227-525b7812064c-attachment.png" type="image/png" size="22064"/>
+			</attachments>
+			<failure>
+				<message>Failed: currency.selectByText is not a function</message>
+				<stack-trace>TypeError: currency.selectByText is not a function
+    at [object Object].openAccount (C:\ProtractorPageObjects\pages\AddCustomerDetails.js:52:18)
+    at Object.&lt;anonymous&gt; (C:\ProtractorPageObjects\test_spec\AddCustomerInfoTest_spec.js:22:22)
+    at C:\Users\Selenium\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:96:23
+    at [object Object].promise.Promise.goog.defineClass.constructor (C:/Users/Selenium/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1056:7)
+    at new wrappedCtr (C:\Users\Selenium\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\goog\base.js:2468:26)
+    at controlFlowExecute (C:\Users\Selenium\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:82:18)
+    at [object Object].promise.ControlFlow.goog.defineClass.goog.defineClass.abort_.error.executeNext_.execute_ (C:/Users/Selenium/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2776:14)
+    at [object Object].promise.ControlFlow.goog.defineClass.goog.defineClass.abort_.error.executeNext_ (C:/Users/Selenium/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2758:21)
+    at goog.async.run.processWorkQueue (C:\Users\Selenium\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\goog\async\run.js:124:15)
+    at process._tickCallback (node.js:368:9)
+From: Task: Run it(&quot;Open Account&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\Selenium\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:81:14)
+    at attemptAsync (C:\Users\Selenium\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1819:24)
+    at QueueRunner.run (C:\Users\Selenium\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1774:9)
+    at QueueRunner.execute (C:\Users\Selenium\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1762:10)
+    at Spec.Env.queueRunnerFactory (C:\Users\Selenium\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:627:35)
+    at Spec.execute (C:\Users\Selenium\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:353:10)
+    at Object.fn (C:\Users\Selenium\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2360:37)
+    at attemptAsync (C:\Users\Selenium\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1819:24)
+    at QueueRunner.run (C:\Users\Selenium\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1774:9)
+    at C:\Users\Selenium\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1801:16
+From asynchronous test: 
+Error
+    at Suite.&lt;anonymous&gt; (C:\ProtractorPageObjects\test_spec\AddCustomerInfoTest_spec.js:18:5)
+    at addSpecsToSuite (C:\Users\Selenium\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:743:25)
+    at Env.describe (C:\Users\Selenium\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:713:7)
+    at jasmineInterface.describe (C:\Users\Selenium\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3219:18)
+    at Object.&lt;anonymous&gt; (C:\ProtractorPageObjects\test_spec\AddCustomerInfoTest_spec.js:4:1)
+    at Module._compile (module.js:435:26)
+    at Object.Module._extensions..js (module.js:442:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:311:12)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
